@@ -1,0 +1,21 @@
+{
+  "name": "Resume",
+  "version": "1.0.0",
+  "description": "My resume",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently -k -r \"grunt sass && grunt watch\" \"browser-sync start --server --no-notify --no-open --files '*.css, *.html'\"",
+    "sass": "grunt sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ewanmay/resume"
+  },
+  "dependencies": {
+    "browser-sync": "^2.18.13",
+    "concurrently": "^3.3.0",
+    "grunt": "1.0.1",
+    "grunt-contrib-watch": "1.0.0",
+    "grunt-sass": "2.0.0"
+  }
+}

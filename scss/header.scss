@@ -1,0 +1,55 @@
+.top-header {
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.name {
+  font-size: 47px;
+  padding-left: 40px;
+  font-family: 'Hind Guntur', sans-serif;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
+.link {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 5px;
+
+  svg {
+    padding-left: 15px;
+  }
+
+  &:last-child {
+    padding-bottom: 0;
+  }
+}
+
+.description {
+font-style: italic;
+}
+
+.contact-info {    
+    display: flex;
+    margin-bottom: -14px;
+    margin-top: -14px;
+    margin-left: 15px;
+    padding-bottom: 15px;
+    border-bottom: 4px solid #35b729;
+  > div {
+    padding: 0 10px;
+  }
+
+  > div:first-child {
+    padding-left: 0px;
+    border-right: 1px solid black;
+  }
+}
+
+.header {
+  border-bottom: 4px solid #283044;
+  margin-bottom: 20px;
+}

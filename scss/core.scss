@@ -1,0 +1,43 @@
+@import "colours";
+@import "header";
+@import "section";
+@import "education";
+
+body {
+  margin: 15px 25px;
+  font-size: 15px;
+  font-size: 14px; font-family: "Calibri", sans-serif;
+}
+
+a {
+  color: #0000EE;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0 0 0 25px;
+}
+
+li {
+  padding: 0
+}
+
+$left-column: 52;
+.split-columns {
+  display: flex;
+
+  > div {
+    width: percentage((100 - $left-column)/100);
+  }
+
+  > div:first-child {
+    width: percentage($left-column/100);
+	   margin-right: 10px;
+  }
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
