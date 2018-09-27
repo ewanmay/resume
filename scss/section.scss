@@ -1,7 +1,12 @@
 .section {
   padding-top: 5px;
-  width: 45%;
-  padding-right: 4%;
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.section.wide {
+  width: 100%;
   display: inline-block;
   vertical-align: top;
 }
@@ -14,7 +19,7 @@
 
 
 .section-content.technical-skills{
-  padding: 8px 20px 5px;
+  padding: 0px 20px 5px;
   border-left: 4px solid #283044;
   min-height: 0px;
 }
@@ -42,7 +47,7 @@
       display: flex;
     }
   }
-
+  .section-content-technica
   .section-item-subtitle {
     color: $subtitle;
     font-size: 14px;
