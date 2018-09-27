@@ -31,6 +31,7 @@
   font-family: 'Hind Guntur', sans-serif;
   color: $section-title;
   width: 100%;
+  font-weight: 300;
 
   svg {
     margin: 0px 10px 3px -10px;
@@ -43,11 +44,11 @@
     font-size: 17px;
     display: flex;
     align-items: center;
+    font-weight: bold;
     a {
       display: flex;
     }
   }
-  .section-content-technica
   .section-item-subtitle {
     color: $subtitle;
     font-size: 14px;
