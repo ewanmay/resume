@@ -37,7 +37,11 @@
     margin: 0px 10px 3px -10px;
   }
 }
-
+.toolbox {
+  max-width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
 .section-item {
   padding-bottom: 5px;
   .section-item-title {

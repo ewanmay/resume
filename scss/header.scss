@@ -2,7 +2,15 @@
   margin-bottom: 10px;
   align-items: center;
 }
-
+.header-left-side {
+  display: flex;
+  flex-direction: column;
+}
+.summary {
+  font-size: 14px;
+  margin-top: -26px;
+  display: flex;
+}
 .name {
   font-size: 47px;
   padding-left: 40px;
@@ -12,7 +20,11 @@
 
 .links {
   display: flex;
-  flex-direction: column;
+    flex: auto;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-grow: 2;
+    min-width: 36%;
 }
 
 .link {
@@ -34,12 +46,9 @@ font-style: italic;
 }
 
 .contact-info {    
-    display: flex;
-    margin-bottom: -14px;
-    margin-top: -14px;
-    margin-left: 15px;
-    padding-bottom: 15px;
-    border-bottom: 4px solid #35b729;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: -26px;
   > div {
     padding: 0 10px;
   }
